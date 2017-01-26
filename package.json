@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce_template_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardosi/eCommerce_Template_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardosi/eCommerce_Template_frontend/issues"
+  },
+  "homepage": "https://github.com/cardosi/eCommerce_Template_frontend#readme"
+}
