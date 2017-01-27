@@ -5,13 +5,11 @@
 
 .container {
   background: #C3C3C3;
-  height: 100vh;
-  width: 100%;
 }
 
 nav {
   background-color: #ABA8B2;
-  height: 15vh;
+  height: 5em;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -19,4 +17,26 @@ nav {
 
 ul li {
   display: inline;
+  margin-right: 6em;
+}
+
+ul li:hover {
+  cursor: auto;
+  border-bottom: 3px solid #4C4B63;
+}
+
+#showcase {
+  height: 40em;
+  width: 90%;
+}
+
+#showcase img {
+  height: 40em;
+  width: 90%;
+  float: left;
+}
+
+#showcase h2 {
+  font-size: 4rem;
+  position: absolute;
 }
