@@ -66,6 +66,7 @@ main {
   background-color: #949396;
   border: 1px solid pink;
   text-align: center;
+  color: #C3C3C3;
 }
 
 .wrapper {
@@ -74,4 +75,11 @@ main {
   width: 100%;
   min-height: 12%;
   z-index: 2;
+}
+
+.aboutc div {
+  display: inline-block;
+  width: 19em;
+  border: 1px solid green;
+
 }
