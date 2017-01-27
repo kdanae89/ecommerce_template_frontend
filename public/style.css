@@ -1,23 +1,40 @@
 * {
-  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Satisfy', cursive;
 }
 
-.container {
+body {
   background: #C3C3C3;
+  color: #ABA8B2;
+  border: 1px solid white;
 }
 
-nav {
-  background-color: #ABA8B2;
-  height: 5em;
-  text-align: center;
-  position: fixed;
+header {
+  border: 1px solid orange;
+  height: 4em;
   width: 100%;
 }
 
+header nav {
+  width: 100%;
+}
+
+nav {
+  background-color: #4C4B63;
+  height: 5em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
 ul li {
+  float: right;
   display: inline;
-  margin-right: 6em;
+  margin-right: 4em;
+  margin-top: 1em;
 }
 
 ul li:hover {
@@ -26,17 +43,35 @@ ul li:hover {
 }
 
 #showcase {
-  height: 40em;
-  width: 90%;
-}
-
-#showcase img {
-  height: 40em;
-  width: 90%;
-  float: left;
+  height: 32em;
+  text-align: center;
+  width: 100%;
+  border: 1px solid red;
+  background-color: #5386E4;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: fixed !important;
 }
 
 #showcase h2 {
-  font-size: 4rem;
+  border: 1px solid black;
+  font-size: 4em;
+  margin-top: 3em;
+  color: #C3C3C3;
+}
+
+main {
+  height: 30em;
+  background-color: #949396;
+  border: 1px solid pink;
+  text-align: center;
+}
+
+.wrapper {
   position: absolute;
+  top: 80%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
 }
