@@ -1,3 +1,22 @@
 * {
   border: 1px solid red;
+  font-family: 'Satisfy', cursive;
+}
+
+.container {
+  background: #C3C3C3;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  background-color: #ABA8B2;
+  height: 15vh;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+ul li {
+  display: inline;
 }
